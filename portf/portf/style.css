@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero
+{
+    position: relative;
+    width: 100%;
+    height: 500vh;
+    background-color:silver;
+
+}
+nav{
+
+    display:flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 10px 20px;
+
+}
+
+nav ul li{
+text-decoration: none;
+color: black;
+font-weight: bolder;
+
+}
+
+nav ul li a:hover;{
+color:purple;
+
+
+}
+
+.detel
+{
+   margin-left: 8%;
+   margin-top: 10%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color:gray;
+    margin-bottom: 10px;
+
+}
+
+span{
+    color:black;
+}
+
+.detel p{
+    color: black;
+    line-height: 25px;
+
+}
+.detel a{
+    background: rgb(70, 67, 67);
+    padding: 10px 20px;
+    text-decoration: wavy;
+    font-weight: bold;
+    color:blue ;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 7px;
+}
+
+.image{
+margin: 0;
+padding: 0;
+height: 40vh;
+width: 30vh;
+position: absolute;
+top: 4%;
+right: 8%;
+}
+
+.education{
+    font-size: 20px;
+    color: blue;
+    margin: 50px;
+    height: 180px;
+    width: 400px;
+    background-color:gray;
+    text-align: center;
+}
+
+.contact{
+   
+    font-size: 18px;
+    color:blue;
+    margin:40px;
+    height: 100px;
+    width: 250px;
+    background-color: gray;
+}
+
+.hobbies{
+     
+    font-size: 18px;
+    color:blue;
+    margin:30px;
+    height: 100px;
+    width: 300px;
+    background-color:gray;
+    top: 7%;
+}
